@@ -1,0 +1,38 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "web",
+      "site": "https://genuflecto.github.io"
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.thalesgroup.gemalto.fido2.demo",
+      "sha256_cert_fingerprints": [
+        "A4:D8:8F:E6:22:B2:43:C2:70:80:63:9A:28:0D:73:18:F5:0F:24:84:BE:D0:7D:71:28:24:1C:7C:8A:06:2D:C9"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.thales.dis.mobile.idcloud.auth.demoapp",
+      "sha256_cert_fingerprints": [
+        "E3:1D:A9:62:B9:F4:25:28:10:22:33:94:4B:F3:7B:55:F5:B1:BA:49:FF:7D:58:1B:0D:7C:D0:77:0C:BB:95:4C"
+      ]
+    }
+  }
+]
