@@ -31,7 +31,8 @@
       "namespace": "android_app",
       "package_name": "com.thalesgroup.gemalto.fido2.sample",
       "sha256_cert_fingerprints": [
-        "A4:D8:8F:E6:22:B2:43:C2:70:80:63:9A:28:0D:73:18:F5:0F:24:84:BE:D0:7D:71:28:24:1C:7C:8A:06:2D:C9"
+        "A4:D8:8F:E6:22:B2:43:C2:70:80:63:9A:28:0D:73:18:F5:0F:24:84:BE:D0:7D:71:28:24:1C:7C:8A:06:2D:C9",
+        "F7:DF:0B:BE:A9:B2:A9:C1:1F:16:19:83:CD:D6:D3:42:D0:BD:A1:A5:BB:47:BF:98:FD:F3:9C:5D:E6:39:37:B7"
       ]
     }
   },
