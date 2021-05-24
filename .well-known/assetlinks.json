@@ -130,5 +130,19 @@
         "20:CA:5F:F9:88:84:54:C4:A8:D6:DA:6A:84:CA:3A:CA:46:AE:FC:26:1E:3B:E0:34:53:F7:92:4A:2B:62:87:4F"
       ]
     }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.thales.digitalfirst",
+      "sha256_cert_fingerprints": [
+        "F3:0D:90:59:58:8E:42:34:A5:D8:87:1D:80:39:7F:F2:A6:DE:9C:99:D5:B4:03:24:BE:E9:48:E0:FB:5F:3A:1C",
+        "47:54:DC:B6:95:27:86:0F:ED:13:87:C7:BF:E6:E5:0E:37:70:DF:B7:74:17:E1:4D:46:A2:8D:20:A2:B7:0B:7C"
+      ]
+    }
   }
 ]
