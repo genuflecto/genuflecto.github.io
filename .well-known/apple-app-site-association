@@ -1,5 +1,18 @@
 {
-    "webcredentials": {
-      "apps": [ "LMY4YJ949Q.com.thalesgroup.gemalto.wwdc.fido" ]
-    }
+  "applinks": {
+     "details": [
+          {
+            "appIDs": [ "LMY4YJ949Q.com.thalesgroup.gemalto.idcloud.auth.sample.gettingstarted", "LMY4YJ949Q.com.thalesgroup.gemalto.idcloud.auth.sample" ],
+            "components": [
+              {
+                 "/": "/enroll/*",
+                 "comment": "Matches any URL whose path starts with /enroll/"
+              }
+            ]
+          }
+      ]
+  },
+  "webcredentials": {
+    "apps": [ "LMY4YJ949Q.com.thalesgroup.gemalto.wwdc.fido" ]
+  }
 }
