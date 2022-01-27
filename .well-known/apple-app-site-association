@@ -1,18 +1,35 @@
 {
   "applinks": {
-     "details": [
+    "details": [
+      {
+        "appIDs": [
+          "LMY4YJ949Q.com.thalesgroup.gemalto.idcloud.auth.sample.gettingstarted",
+          "LMY4YJ949Q.com.thalesgroup.gemalto.idcloud.auth.sample"
+        ],
+        "components": [
           {
-            "appIDs": [ "LMY4YJ949Q.com.thalesgroup.gemalto.idcloud.auth.sample.gettingstarted", "LMY4YJ949Q.com.thalesgroup.gemalto.idcloud.auth.sample" ],
-            "components": [
-              {
-                 "/": "/enroll/*",
-                 "comment": "Matches any URL whose path starts with /enroll/"
-              }
-            ]
+            "/": "/enroll/*",
+            "comment": "Matches any URL whose path starts with /enroll/"
           }
-      ]
+        ]
+      },
+      {
+        "appID": "LMY4YJ949Q.com.thalesgroup.gemalto.idcloud.auth.sample.gettingstarted",
+        "paths": [
+          "/enroll/*"
+        ]
+      },
+      {
+        "appID": "LMY4YJ949Q.com.thalesgroup.gemalto.idcloud.auth.sample",
+        "paths": [
+          "/enroll/*"
+        ]
+      }
+    ]
   },
   "webcredentials": {
-    "apps": [ "LMY4YJ949Q.com.thalesgroup.gemalto.wwdc.fido" ]
+    "apps": [
+      "LMY4YJ949Q.com.thalesgroup.gemalto.wwdc.fido"
+    ]
   }
 }
