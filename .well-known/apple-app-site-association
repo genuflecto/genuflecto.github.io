@@ -16,6 +16,21 @@
             "comment": "Matches any URL whose path starts with /enroll/"
           }
         ]
+      },
+      {
+        "appID": "LMY4YJ949Q.com.thalesgroup.gemalto.idcloud.auth.sample.gettingstarted",
+        "paths": [
+          "/enroll/*"
+        ],
+        "appIDs": [
+          "LMY4YJ949Q.com.thalesgroup.gemalto.idcloud.auth.sample.gettingstarted"
+        ],
+        "components": [
+          {
+            "/": "/enroll/*",
+            "comment": "Matches any URL whose path starts with /enroll/"
+          }
+        ]
       }
     ]
   },
