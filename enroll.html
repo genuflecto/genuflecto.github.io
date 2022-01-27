@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enroll</title>
+    <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
+</head>
+<body>
+    <form id="camera-form">
+        <p>Choose Camera:</p>
+    </form>
+    <button id="scan" onclick="startCamera()">Scan</button>
+    <div id="reader" width="600px"></div>
+    <div id="links"></div>
+    <script>
+
+        function getCameras() {
+            // This method will trigger user permissions
+            Html5Qrcode.getCameras().then(devices => {
+                    /**
+                    * devices would be an array of objects of type:
+                    * { id: "id", label: "label" }
+                    */
+                    if (devices && devices.length) {
+                        devices.forEach(device => {
+                            console.log("device", device.id)
+                            document.getElementById("camera-form").innerHTML += `<p><input type="radio" name="camera" value="${device.id}" ><label>${device.id}|${device.label}</label></p><br/>`;
+                        });
+                    }
+            }).catch(err => {
+                    // handle err
+                    console.log(`Failed to get cameras, err %{err}`);
+            });
+        } 
+
+        function startCamera() {
+            const formData = new FormData(document.getElementById("camera-form"));
+            const cameraId = formData.get("camera");
+            console.log(`The value is: ${cameraId}`);
+            // .. use this to start scanning.
+            const html5QrCode = new Html5Qrcode("reader");
+
+            html5QrCode.start(
+                cameraId,     // retreived in the previous step.
+                {
+                    fps: 10,    // sets the framerate to 10 frame per second
+                    qrbox: 250  // sets only 250 X 250 region of viewfinder to
+                                // scannable, rest shaded.
+                },
+                qrCodeMessage => {
+                    // do something when code is read. For example:
+                    console.log(`QR Code detected: ${qrCodeMessage}`);
+                    document.getElementById("links").innerHTML += `<p>${qrCodeMessage}</p>`;
+                    document.getElementById("links").innerHTML += `<a href="${qrCodeMessage}">AppLink</a></br>`;
+                },
+                errorMessage => {
+                    // parse error, ideally ignore it. For example:
+                    console.log(`QR Code no longer in front of camera.`);
+            })
+            .catch(err => {
+            // Start failed, handle it. For example,
+            console.log(`Unable to start scanning, error: ${err}`);
+            });
+        }
+
+        window.onload = function() {
+            console.log("onload")
+            getCameras()
+        }
+        
+    </script>
+</body>
+</html>
