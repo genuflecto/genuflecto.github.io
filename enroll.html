@@ -8,7 +8,7 @@
     <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
 </head>
 <body>
-    <a href="https://genuflecto.github.io/enroll?token=123456">Test AppLink</a></br>
+    <a href="intent://genuflecto.github.io/enroll?token=123456#Intent;scheme=https;end">Test AppLink</a></br>
     <form id="camera-form">
         <p>Choose Camera:</p>
     </form>
@@ -54,7 +54,7 @@
                     // do something when code is read. For example:
                     console.log(`QR Code detected: ${qrCodeMessage}`);
                     document.getElementById("links").innerHTML += `<p>${qrCodeMessage}</p>`;
-                    document.getElementById("links").innerHTML += `<a href="https://genuflecto.github.io/enroll?token=${qrCodeMessage}">AppLink</a></br>`;
+                    document.getElementById("links").innerHTML += `<a href="intent://genuflecto.github.io/enroll?token=${qrCodeMessage}#Intent;scheme=https;end">AppLink</a></br>`;
                 },
                 errorMessage => {
                     // parse error, ideally ignore it. For example:
