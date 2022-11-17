@@ -135,4 +135,19 @@
       ]
     }
   }
+
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.thalesgroup.gemalto.IdCloudAccessSample",
+      "sha256_cert_fingerprints": [
+        "E3:1D:A9:62:B9:F4:25:28:10:22:33:94:4B:F3:7B:55:F5:B1:BA:49:FF:7D:58:1B:0D:7C:D0:77:0C:BB:95:4C",
+        "A2:DE:51:B8:2F:42:2B:13:EA:95:E9:D8:CB:69:7B:85:7A:6F:A9:FD:03:ED:EF:5C:17:A8:46:D2:66:C2:2C:A1"
+      ]
+    }
+  }
 ]
