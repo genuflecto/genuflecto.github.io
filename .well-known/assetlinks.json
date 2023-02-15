@@ -148,5 +148,18 @@
         "A2:DE:51:B8:2F:42:2B:13:EA:95:E9:D8:CB:69:7B:85:7A:6F:A9:FD:03:ED:EF:5C:17:A8:46:D2:66:C2:2C:A1"
       ]
     }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.thalesgroup.gemalto.d1.validation",
+      "sha256_cert_fingerprints": [
+        "59:14:11:C6:EF:DC:32:C0:A4:8E:BF:02:35:83:AF:58:9A:50:FD:34:91:4B:92:77:37:79:54:EC:FF:91:B3:25"
+      ]
+    }
   }
 ]
