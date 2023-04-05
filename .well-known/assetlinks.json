@@ -161,5 +161,18 @@
         "59:14:11:C6:EF:DC:32:C0:A4:8E:BF:02:35:83:AF:58:9A:50:FD:34:91:4B:92:77:37:79:54:EC:FF:91:B3:25"
       ]
     }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.passkeysdemo",
+      "sha256_cert_fingerprints": [
+        "C9:C8:10:5E:C7:53:1E:15:48:B7:83:A0:0D:80:AF:F9:F5:45:FF:2F:55:A8:F5:35:98:40:65:18:B0:8F:D3:88"
+      ]
+    }
   }
 ]
