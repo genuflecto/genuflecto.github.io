@@ -169,7 +169,7 @@
     ],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.thalesgroup.gemalto.fido2",
+      "package_name": "com.thalesgroup.gemalto.fido2.test",
       "sha256_cert_fingerprints": [
         "C9:C8:10:5E:C7:53:1E:15:48:B7:83:A0:0D:80:AF:F9:F5:45:FF:2F:55:A8:F5:35:98:40:65:18:B0:8F:D3:88"
       ]
