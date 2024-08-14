@@ -24,8 +24,7 @@
         "com.safenet.idcloud.sample",
         "com.gemalto.mobilepassp",
         "com.thalesgroup.gemalto.wwdc.fido",
-        "com.thalesgroup.gemalto.idcloud.auth.demo",
-        
+        "com.thalesgroup.gemalto.idcloud.auth.demo"
       ]
     }
   }
