@@ -187,5 +187,20 @@
         "BF:FA:69:86:13:AC:45:0E:A5:6F:45:E5:B2:AD:46:62:7C:88:B7:4B:41:DE:49:DF:04:68:8D:93:DF:EB:39:17"
       ]
     }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.thales.idclouddemotest",
+      "sha256_cert_fingerprints": [
+        "BF:FA:69:86:13:AC:45:0E:A5:6F:45:E5:B2:AD:46:62:7C:88:B7:4B:41:DE:49:DF:04:68:8D:93:DF:EB:39:17",
+        "4F:74:BD:EC:47:0D:63:CA:3A:0F:39:E8:5B:33:71:6F:84:0D:A4:37:C2:17:54:2F:21:A1:81:F7:06:A9:85:AA"
+      ]
+    }
   }
+
 ]
