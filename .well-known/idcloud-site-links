@@ -83,7 +83,8 @@
       {
         "package_name": "com.thalesgroup.gemalto.fido2.test",
         "sha256_cert_fingerprints": [
-          "C9:C8:10:5E:C7:53:1E:15:48:B7:83:A0:0D:80:AF:F9:F5:45:FF:2F:55:A8:F5:35:98:40:65:18:B0:8F:D3:88"
+          "C9:C8:10:5E:C7:53:1E:15:48:B7:83:A0:0D:80:AF:F9:F5:45:FF:2F:55:A8:F5:35:98:40:65:18:B0:8F:D3:88",
+          "4A:19:B1:E0:CA:F9:A9:F0:C7:3B:59:59:D6:BE:D4:0E:EA:28:69:F3:E9:D2:6A:05:94:51:F5:E0:23:73:FD:44"
         ]
       },
       {
