@@ -130,7 +130,8 @@
         "2T9J7M62ML.com.thalesgroup.ms3.mse.passkey",
         "7NYG7J2MP4.com.safenet.idcloud.sample",
         "4SNPZZ27XN.com.gemalto.mobilepassp",
-        "P9479NUQMB.com.thalesgroup.gemalto.idcloudclientInstrTestsHostApp"
+        "P9479NUQMB.com.thalesgroup.gemalto.idcloudclientInstrTestsHostApp",
+        "P9479NUQMB.com.thalesgroup.gemalto.idcloudclient.IdCloudClientIntegrationTests"
       ]
     }
   }
