@@ -132,7 +132,8 @@
         "4SNPZZ27XN.com.gemalto.mobilepassp",
         "P9479NUQMB.com.thalesgroup.gemalto.idcloudclientInstrTestsHostApp",
         "P9479NUQMB.com.thalesgroup.demo",
-        "LMY4YJ949Q.com.thalesgroup.gemalto.poc.fidoautofill"
+        "LMY4YJ949Q.com.thalesgroup.gemalto.poc.fidoautofill",
+        "LMY4YJ949Q.com.thalesgroup.gemalto.poc.fidoautofill.autofill"
       ]
     }
   }
