@@ -119,21 +119,24 @@
   "ios": {
     "webcredentials": {
       "apps": [
-        "LMY4YJ949Q.com.gemalto.fido2.demo",
-        "LMY4YJ949Q.com.thalesgroup.gemalto.fido2InstrTestsHostApp",
-        "LMY4YJ949Q.com.gemalto.idcloudclient.demoapp.demo",
-        "DU7BTS4S46.com.thalesgroup.gemalto.idcloud.fido2.ent.demo",
-        "LMY4YJ949Q.com.thalesgroup.gemalto.idcloud.auth.sample.gettingstarted",
-        "LMY4YJ949Q.com.thalesgroup.gemalto.idcloud.auth.sample",
-        "LMY4YJ949Q.com.thalesgroup.gemalto.IdCloudAccessSample",
-        "LMY4YJ949Q.com.thalesgroup.gemalto.d1.demo",
-        "2T9J7M62ML.com.thalesgroup.ms3.mse.passkey",
-        "7NYG7J2MP4.com.safenet.idcloud.sample",
-        "4SNPZZ27XN.com.gemalto.mobilepassp",
-        "P9479NUQMB.com.thalesgroup.gemalto.idcloudclientInstrTestsHostApp",
-        "P9479NUQMB.com.thalesgroup.demo",
-        "LMY4YJ949Q.com.thalesgroup.gemalto.poc.fidoautofill",
-        "LMY4YJ949Q.com.thalesgroup.gemalto.poc.fidoautofill.autofill"
+          "LMY4YJ949Q.com.gemalto.fido2.demo",
+          "LMY4YJ949Q.com.thalesgroup.gemalto.fido2InstrTestsHostApp",
+          "LMY4YJ949Q.com.gemalto.idcloudclient.demoapp.demo",
+          "DU7BTS4S46.com.thalesgroup.gemalto.idcloud.fido2.ent.demo",
+          "LMY4YJ949Q.com.thalesgroup.gemalto.idcloud.auth.sample.gettingstarted",
+          "LMY4YJ949Q.com.thalesgroup.gemalto.idcloud.auth.sample",
+          "LMY4YJ949Q.com.thalesgroup.gemalto.IdCloudAccessSample",
+          "LMY4YJ949Q.com.thalesgroup.gemalto.d1.demo",
+          "2T9J7M62ML.com.thalesgroup.ms3.mse.passkey",
+          "7NYG7J2MP4.com.safenet.idcloud.sample",
+          "LMY4YJ949Q.com.thalesgroup.gemalto.poc.fidoautofill",
+          "LMY4YJ949Q.com.thalesgroup.gemalto.poc.fidoautofill.autofill",
+          "4SNPZZ27XN.com.gemalto.mobilepassp"
+          "2T9J7M62ML.com.thalesgroup.oip.fido2.demo",
+          "2T9J7M62ML.com.thalesgroup.gemalto.fido2InstrTestsHostApp",
+          "2T9J7M62ML.com.gemalto.idcloudclient.demoapp.demo",
+          "2T9J7M62ML.com.thalesgroup.oip.idcloud.auth.sample.gettingstarted",
+          "2T9J7M62ML.com.thalesgroup.oip.idcloud.auth.sample"
       ]
     }
   }

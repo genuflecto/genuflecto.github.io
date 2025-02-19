@@ -31,6 +31,36 @@
             "comment": "Matches any URL whose path starts with /enroll/"
           }
         ]
+      },
+      {
+        "appID": "2T9J7M62ML.com.thalesgroup.oip.idcloud.auth.sample",
+        "paths": [
+          "/enroll/*"
+        ],
+        "appIDs": [
+          "2T9J7M62ML.com.thalesgroup.oip.idcloud.auth.sample"
+        ],
+        "components": [
+          {
+            "/": "/enroll/*",
+            "comment": "Matches any URL whose path starts with /enroll/"
+          }
+        ]
+      },
+      {
+        "appID": "2T9J7M62ML.com.thalesgroup.oip.idcloud.auth.sample.gettingstarted",
+        "paths": [
+          "/enroll/*"
+        ],
+        "appIDs": [
+          "2T9J7M62ML.com.thalesgroup.oip.idcloud.auth.sample.gettingstarted"
+        ],
+        "components": [
+          {
+            "/": "/enroll/*",
+            "comment": "Matches any URL whose path starts with /enroll/"
+          }
+        ]
       }
     ]
   },
@@ -49,6 +79,11 @@
       "LMY4YJ949Q.com.thalesgroup.gemalto.poc.fidoautofill",
       "LMY4YJ949Q.com.thalesgroup.gemalto.poc.fidoautofill.autofill",
       "4SNPZZ27XN.com.gemalto.mobilepassp"
+      "2T9J7M62ML.com.thalesgroup.oip.fido2.demo",
+      "2T9J7M62ML.com.thalesgroup.gemalto.fido2InstrTestsHostApp",
+      "2T9J7M62ML.com.gemalto.idcloudclient.demoapp.demo",
+      "2T9J7M62ML.com.thalesgroup.oip.idcloud.auth.sample.gettingstarted",
+      "2T9J7M62ML.com.thalesgroup.oip.idcloud.auth.sample"
     ]
   }
 }
