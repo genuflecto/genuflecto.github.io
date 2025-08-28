@@ -121,6 +121,7 @@
     "webcredentials": {
       "apps": [
           "LMY4YJ949Q.com.gemalto.fido2.demo",
+          "2T9J7M62ML.com.thalesgroup.oip.fido2.sample",
           "LMY4YJ949Q.com.thalesgroup.gemalto.fido2InstrTestsHostApp",
           "LMY4YJ949Q.com.gemalto.idcloudclient.demoapp.demo",
           "DU7BTS4S46.com.thalesgroup.gemalto.idcloud.fido2.ent.demo",
