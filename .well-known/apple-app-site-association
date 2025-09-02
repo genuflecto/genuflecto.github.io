@@ -84,7 +84,8 @@
       "2T9J7M62ML.com.thalesgroup.oip.fido2InstrTestsHostApp",
       "2T9J7M62ML.com.thalesgroup.oip.idcloudclient.demoapp.demo",
       "2T9J7M62ML.com.thalesgroup.oip.idcloud.auth.sample.gettingstarted",
-      "2T9J7M62ML.com.thalesgroup.oip.idcloud.auth.sample"
+      "2T9J7M62ML.com.thalesgroup.oip.idcloud.auth.sample",
+      "Z8KAQHXXAZ.com.thalesgroup.oip.fido2.sample"
     ]
   }
 }
