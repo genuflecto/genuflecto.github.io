@@ -116,7 +116,7 @@
         ]
       },
       {
-        "package_name": "com.onewelcome.showcaseapp",
+        "package_name": "com.onewelcome.showcaseapp.developer",
         "sha256_cert_fingerprints": [
             "D0:89:A8:92:38:6F:B6:3F:B7:D3:21:AA:87:BF:82:47:6F:26:C4:41:A0:68:08:B5:2E:D9:46:94:94:30:83:83",
             "29:1A:1A:FB:4F:91:AB:FC:5C:79:40:A9:CC:42:2D:49:F2:6D:36:23:3D:AF:09:44:81:DA:B3:22:C1:FD:6F:52"
