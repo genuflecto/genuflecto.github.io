@@ -114,6 +114,13 @@
         "sha256_cert_fingerprints": [
           "E3:1D:A9:62:B9:F4:25:28:10:22:33:94:4B:F3:7B:55:F5:B1:BA:49:FF:7D:58:1B:0D:7C:D0:77:0C:BB:95:4C"
         ]
+      },
+      {
+        "package_name": "com.onewelcome.showcaseapp",
+        "sha256_cert_fingerprints": [
+            "D0:89:A8:92:38:6F:B6:3F:B7:D3:21:AA:87:BF:82:47:6F:26:C4:41:A0:68:08:B5:2E:D9:46:94:94:30:83:83",
+            "29:1A:1A:FB:4F:91:AB:FC:5C:79:40:A9:CC:42:2D:49:F2:6D:36:23:3D:AF:09:44:81:DA:B3:22:C1:FD:6F:52"
+        ]
       }
     ]
   },
