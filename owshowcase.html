@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OW Showcase</title>
+    <style>
+        body { font-family: monospace; margin: 2em; }
+        .label { font-weight: bold; margin-top: 1em; }
+        .value { background: #f0f0f0; padding: 0.5em; word-break: break-all; margin: 0.25em 0; }
+    </style>
+</head>
+<body>
+    <h1>OW Showcase</h1>
+    <div class="label">Full URL:</div>
+    <div class="value" id="full-url"></div>
+    <div id="params"></div>
+    <script>
+        document.getElementById("full-url").textContent = window.location.href;
+
+        const params = new URLSearchParams(window.location.search);
+        const container = document.getElementById("params");
+
+        params.forEach((value, key) => {
+            const label = document.createElement("div");
+            label.className = "label";
+            label.textContent = key + " (raw):";
+            container.appendChild(label);
+
+            const raw = document.createElement("div");
+            raw.className = "value";
+            raw.textContent = value;
+            container.appendChild(raw);
+
+            try {
+                const decoded = atob(value);
+                const decodedLabel = document.createElement("div");
+                decodedLabel.className = "label";
+                decodedLabel.textContent = key + " (decoded):";
+                container.appendChild(decodedLabel);
+
+                const decodedValue = document.createElement("div");
+                decodedValue.className = "value";
+                decodedValue.textContent = decoded;
+                container.appendChild(decodedValue);
+            } catch (e) {
+                // not valid base64, skip decoded display
+            }
+        });
+    </script>
+</body>
+</html>
