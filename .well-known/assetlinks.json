@@ -162,7 +162,7 @@
       ]
     }
   },
-   {
+  {
     "relation": [
       "delegate_permission/common.handle_all_urls",
       "delegate_permission/common.get_login_creds"
@@ -215,6 +215,18 @@
         "BF:FA:69:86:13:AC:45:0E:A5:6F:45:E5:B2:AD:46:62:7C:88:B7:4B:41:DE:49:DF:04:68:8D:93:DF:EB:39:17"
       ]
     }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.onewelcome.showcaseapp.developer",
+      "sha256_cert_fingerprints": [
+        "80:55:B6:66:E3:F7:5D:33:5F:7F:AA:DC:51:15:26:1E:7B:C1:26:55:BE:B1:51:79:71:FD:78:F1:94:E9:46:72"
+      ]
+    }
   }
-
 ]
